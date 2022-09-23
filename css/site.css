@@ -72,8 +72,14 @@ code[class*="language-"],
     word-wrap: break-word;
     }
 
+
 @media only screen and (max-width: 400px) {
     .responsiveicon {
-        font-size: 10vh;
+        font-size: 8vh;
+    }
+
+    main> img {
+        padding-top: 0;
+        margin-top: 0;
     }
 }
